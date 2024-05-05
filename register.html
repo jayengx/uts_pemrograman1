@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register - SCBD University</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navbar">
+        <header>
+          <h1>SCBD University</h1>
+        </header>
+    </div>
+
+    <div class="register-container">
+        <h2>Form Register</h2>
+
+        <form id="register-form">
+            <div class="form-group">
+                <label for="nama">Nama Lengkap:</label>
+                <input type="text" id="nama" name="nama" required>
+            </div>
+
+        <div class="form-group">
+            <label for="jenis-kelamin">Jenis Kelamin:</label>
+                <select id="jenis-kelamin" name="jenis-kelamin">
+                    <option value="laki-laki">Laki-laki</option>
+                    <option value="perempuan">Perempuan</option>
+                </select>
+            </div>
+
+        <form id="register-form">
+            <div class="form-group">
+                <label for="tempat-lahir">Tempat Lahir:</label>
+                <input type="text" id="tempat-lahir" name="tempat-lahir" required>
+            </div>
+
+        <form id="register-form">
+            <div class="form-group">
+                <label for="tanggal-lahir">Tanggal Lahir:</label>
+                <input type="text" id="tanggal-lahir" name="tanggal-lahir" required>
+            </div>
+        
+        <div class="form-group">
+            <label for="fakultas">Fakultas:</label>
+                <select id="fakultas" name="fakultas">
+                    <option value="teknik">Teknik</option>
+                    <option value="hukum">Hukum</option>
+                    <option value="ekonomi">Ekonomi</option>
+                    <option value="sastra">Sastra</option>
+                    <option value="ilmu-sosial">Ilmu Sosial</option>
+                </select>
+            </div>
+
+        <div class="form-group">
+                <label for="prodi">Prodi:</label>
+                <input type="text" id="prodi" name="prodi" required>
+            </div>
+
+        <form id="register-form">
+            <div class="form-group">
+                <label for="new-username">NIM:</label>
+                <input type="text" id="new-username" name="new-username" required>
+            </div>
+            <div class="form-group">
+                <label for="new-password">New Password:</label>
+                <input type="password" id="new-password" name="new-password" required>
+            </div>
+            <button type="submit">Register</button>
+            <p id="register-error-message"></p>
+        </form>
+    </div>
+
+    <script src="register-script.js"></script>
+</body>
+</html>
